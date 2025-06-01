@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 24px;
+  background: #f5f5f5;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  align-items: center;
+}
+
+nav a:last-child {
+  margin-left: auto;
+}
+
+.carrito {
+  margin-left: "auto";
+  position: "relative";
+}
+
+.carrito-png {
+  position: "absolute";
+  left: "50%";
+  transform: "translateX(-50%)";
+  top: 32;
+  font-size: 14;
+  color: "#fff";
+  background: "#e74c3c";
+  border-radius: "12px";
+  padding: "2px 8px";
+  min-width: 20;
+  text-align: "center";
+}

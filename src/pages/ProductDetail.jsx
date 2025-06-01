@@ -1,0 +1,1 @@
+export default function ProductDetail() { return <h2>Detalles del producto</h2>; }

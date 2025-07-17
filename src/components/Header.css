@@ -1,0 +1,69 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Altura fija para el header */
+  z-index: 1001;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 32px; Reducimos el padding vertical para mantener la altura total */
+  padding: 0px 80px 0px 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-sizing: border-box; /* Para que el padding no afecte la altura total */
+}
+
+.header-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  align-items: flex-end;
+  display: flex;
+  margin-left: 10px;
+}
+
+.header-logo img {
+  height: 35px; /* Ajustamos la altura de la imagen del logo */
+  align-self: center;
+}
+
+.header-title h1{
+  margin: 0px
+}
+
+.header-links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-links button{
+  border-radius: 6px;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.header-link:hover {
+  color: #e74c3c;
+}
+
+.header-links button {
+  cursor: pointer;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
